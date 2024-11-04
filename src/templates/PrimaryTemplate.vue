@@ -15,12 +15,6 @@
       <a href=#>
         <img src=# alt="Guide 2" width="300" height="300">
       </a>
-      <a href=#>
-        <img src=# alt="Guide 3" width="300" height="300">
-      </a>
-      <a href=#>
-        <img src=# alt="Guide 4" width="300" height="300">
-      </a>
     </section>
 
     <footer>
