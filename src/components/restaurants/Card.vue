@@ -1,19 +1,7 @@
 <script setup>
 
 defineProps({
-  // restaurantName: {
-  //   type: String,
-  //   required: true
-  // },
-  // location: {
-  //   type: String,
-  //   required: false
-  // },
-  // photo: {
-  //   type: String,
-  //   required: true
-  // }
-  data: {
+  restaurantInfo: {
     type: Object,
     required: true
   }
@@ -22,33 +10,41 @@ defineProps({
 </script>
 
 <template>
-  <section class="card">
-    <aside>
-      {{ data.restaurant_name }}
-      {{ data.location }}
-    </aside>
-<!--        <aside>-->
-<!--          <img :src="'../src/assets/images/' + photo + '.jpg'" alt="Photo of restaurant"/>-->
-<!--        </aside>-->
-<!--        <aside>-->
-<!--          <div class="name">-->
-<!--            <h1>{{ restaurantName }}</h1>-->
-<!--            <p>{{ location }}</p>-->
-<!--          </div>-->
-<!--        </aside>-->
+  <section class="restaurant-card">
+    <div class="main-photo">
+      <img :src="restaurantInfo.photo" :alt="restaurantInfo.restaurant_name"/>
+    </div>
+    <div class="details">
+      <h1>{{ restaurantInfo.restaurant_name }}</h1>
+<!--      <p v-html="('City' {{restaurantInfo.location}})"></p>-->
+    </div>
   </section>
 </template>
 
 <style scoped>
-section.card {
+section.restaurant-card {
+  /*Mobile first*/
   display: flex;
   flex-direction: column;
   border: 1px solid gray;
   border-radius: 10px;
+  width: 30%;
+  gap: 1rem;
+  padding: 0.5rem;
+
+  .main-photo {
+    width: 100%;
+    height: 100%;
+  }
 
   &:hover {
     border-color: black;
     cursor: pointer;
+  }
+
+  /* Tablet and up */
+  @media screen and (width > 550px) {
+    width : 80%
   }
 }
 

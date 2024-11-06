@@ -4,7 +4,7 @@
 
 <template>
   <section class="primary-template">
-    <header>MINchelin Guide</header>
+    <header>MINNchelin Guide</header>
     <section class="main">
       <slot></slot>
       <p>Welcome message~</p>
@@ -28,9 +28,8 @@
 
 section.primary-template {
   section.main{
-    max-width: 600px;
-    margin: 0 auto;
-    border: 1px solid red;
+    margin: 15%;
+    //border: 1px solid red;
   }
 }
 </style>

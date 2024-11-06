@@ -1,164 +1,183 @@
-const data = [
-    {
+const data = [{
     "id": 1,
-    "restaurant_name": "Gerhold-Lowe",
-    "location": "9085 Oriole Lane",
-    "rating": 1,
+    "restaurant_name": "Anderson and Sons",
+    "location": "Chicago",
+    "rating": 3,
     "parking": "busy parking",
-    "vibes": "fancy",
-    "service": "kind"
+    "vibes": "date night",
+    "service": "quick",
+    "photo": "http://dummyimage.com/x.png/5fa2dd/ffffff"
 }, {
     "id": 2,
-    "restaurant_name": "Osinski-Kessler",
-    "location": "4 Declaration Terrace",
-    "rating": 3,
-    "parking": "paid parking",
-    "vibes": "fancy",
-    "service": "quick"
-}, {
-    "id": 3,
-    "restaurant_name": "Goodwin LLC",
-    "location": "3506 Dixon Hill",
-    "rating": 4,
-    "parking": "free parking",
-    "vibes": "celebration",
-    "service": "quick"
-}, {
-    "id": 4,
     "restaurant_name": "Smith Group",
-    "location": "0730 Gerald Drive",
-    "rating": 3,
-    "parking": "no parking",
-    "vibes": "fancy",
-    "service": "kind"
-}, {
-    "id": 5,
-    "restaurant_name": "Veum-Shields",
-    "location": "7252 Kim Center",
-    "rating": 3,
-    "parking": "free parking",
-    "vibes": "0",
-    "service": "0"
-}, {
-    "id": 6,
-    "restaurant_name": "Lubowitz Group",
-    "location": "94532 Lien Street",
-    "rating": 5,
-    "parking": "busy parking",
-    "vibes": "date night",
-    "service": "kind"
-}, {
-    "id": 7,
-    "restaurant_name": "Schneider-Upton",
-    "location": "06 Sunbrook Alley",
-    "rating": 4,
-    "parking": "busy parking",
-    "vibes": "date night",
-    "service": "quick"
-}, {
-    "id": 8,
-    "restaurant_name": "Rohan and Sons",
-    "location": "840 Dorton Junction",
+    "location": "Minneapolis",
     "rating": 2,
     "parking": "no parking",
-    "vibes": "fancy",
-    "service": "kind"
-}, {
-    "id": 9,
-    "restaurant_name": "Dickinson LLC",
-    "location": "988 Kensington Parkway",
-    "rating": 4,
-    "parking": "no parking",
-    "vibes": "fancy",
-    "service": "slow"
-}, {
-    "id": 10,
-    "restaurant_name": "White LLC",
-    "location": "32297 Dixon Trail",
-    "rating": 3,
-    "parking": "paid parking",
-    "vibes": "celebration",
-    "service": "quick"
-}, {
-    "id": 11,
-    "restaurant_name": "Mayert, Bogan and Lubowitz",
-    "location": "489 Kipling Park",
-    "rating": 1,
-    "parking": "0",
     "vibes": "0",
-    "service": "quick"
+    "service": "kind",
+    "photo": "http://dummyimage.com/x.png/dddddd/000000"
 }, {
-    "id": 12,
-    "restaurant_name": "Fisher, Rice and Hudson",
-    "location": "7 Lake View Circle",
+    "id": 3,
+    "restaurant_name": "Hoeger Group",
+    "location": "Chicago",
+    "rating": 1,
+    "parking": "free parking",
+    "vibes": "0",
+    "service": "kind",
+    "photo": "http://dummyimage.com/x.png/5fa2dd/ffffff"
+}, {
+    "id": 4,
+    "restaurant_name": "Kautzer and Sons",
+    "location": "Chicago",
     "rating": 5,
     "parking": "busy parking",
+    "vibes": "fancy",
+    "service": "0",
+    "photo": "http://dummyimage.com/x.png/cc0000/ffffff"
+}, {
+    "id": 5,
+    "restaurant_name": "Kihn, Parisian and Hintz",
+    "location": "New York City",
+    "rating": 5,
+    "parking": "paid parking",
+    "vibes": "celebration",
+    "service": "kind",
+    "photo": "http://dummyimage.com/x.png/ff4444/ffffff"
+}, {
+    "id": 6,
+    "restaurant_name": "Bechtelar, Kilback and Treutel",
+    "location": "Minneapolis",
+    "rating": 2,
+    "parking": "0",
+    "vibes": "fancy",
+    "service": "0",
+    "photo": "http://dummyimage.com/x.png/ff4444/ffffff"
+}, {
+    "id": 7,
+    "restaurant_name": "Skiles, Kohler and Gleason",
+    "location": "Minneapolis",
+    "rating": 5,
+    "parking": "busy parking",
+    "vibes": "fancy",
+    "service": "kind",
+    "photo": "http://dummyimage.com/x.png/cc0000/ffffff"
+}, {
+    "id": 8,
+    "restaurant_name": "D'Amore, Wolf and Cummerata",
+    "location": "Minneapolis",
+    "rating": 3,
+    "parking": "paid parking",
     "vibes": "0",
-    "service": "quick"
+    "service": "0",
+    "photo": "http://dummyimage.com/x.png/ff4444/ffffff"
+}, {
+    "id": 9,
+    "restaurant_name": "O'Reilly-Mueller",
+    "location": "Chicago",
+    "rating": 1,
+    "parking": "paid parking",
+    "vibes": "fancy",
+    "service": "slow",
+    "photo": "http://dummyimage.com/x.png/5fa2dd/ffffff"
+}, {
+    "id": 10,
+    "restaurant_name": "Swaniawski, Thiel and Halvorson",
+    "location": "New York City",
+    "rating": 2,
+    "parking": "busy parking",
+    "vibes": "0",
+    "service": "kind",
+    "photo": "http://dummyimage.com/x.png/dddddd/000000"
+}, {
+    "id": 11,
+    "restaurant_name": "Runolfsson-Zboncak",
+    "location": "Minneapolis",
+    "rating": 2,
+    "parking": "0",
+    "vibes": "0",
+    "service": "0",
+    "photo": "http://dummyimage.com/x.png/ff4444/ffffff"
+}, {
+    "id": 12,
+    "restaurant_name": "Schimmel, Runolfsdottir and Terry",
+    "location": "Minneapolis",
+    "rating": 2,
+    "parking": "free parking",
+    "vibes": "celebration",
+    "service": "quick",
+    "photo": "http://dummyimage.com/x.png/dddddd/000000"
 }, {
     "id": 13,
-    "restaurant_name": "Murray, Armstrong and Rutherford",
-    "location": "7 Katie Lane",
+    "restaurant_name": "Ryan, Cassin and Turcotte",
+    "location": "Minneapolis",
     "rating": 4,
-    "parking": "paid parking",
-    "vibes": "0",
-    "service": "slow"
+    "parking": "free parking",
+    "vibes": "celebration",
+    "service": "quick",
+    "photo": "http://dummyimage.com/x.png/dddddd/000000"
 }, {
     "id": 14,
-    "restaurant_name": "Morar Inc",
-    "location": "8 Glendale Road",
-    "rating": 4,
-    "parking": "no parking",
+    "restaurant_name": "Armstrong and Sons",
+    "location": "New York City",
+    "rating": 1,
+    "parking": "busy parking",
     "vibes": "celebration",
-    "service": "0"
+    "service": "0",
+    "photo": "http://dummyimage.com/x.png/cc0000/ffffff"
 }, {
     "id": 15,
-    "restaurant_name": "Ziemann Inc",
-    "location": "59 Lakeland Center",
-    "rating": 3,
-    "parking": "paid parking",
-    "vibes": "fancy",
-    "service": "kind"
+    "restaurant_name": "Hahn, Trantow and Runolfsdottir",
+    "location": "New York City",
+    "rating": 2,
+    "parking": "0",
+    "vibes": "0",
+    "service": "0",
+    "photo": "http://dummyimage.com/x.png/dddddd/000000"
 }, {
     "id": 16,
-    "restaurant_name": "Pagac-Wyman",
-    "location": "6 Onsgard Hill",
-    "rating": 3,
-    "parking": "paid parking",
+    "restaurant_name": "Rempel, Towne and Howe",
+    "location": "Minneapolis",
+    "rating": 1,
+    "parking": "busy parking",
     "vibes": "fancy",
-    "service": "kind"
+    "service": "0",
+    "photo": "http://dummyimage.com/x.png/5fa2dd/ffffff"
 }, {
     "id": 17,
-    "restaurant_name": "Kautzer and Sons",
-    "location": "0987 Milwaukee Hill",
-    "rating": 4,
-    "parking": "0",
-    "vibes": "date night",
-    "service": "slow"
+    "restaurant_name": "Durgan Group",
+    "location": "Chicago",
+    "rating": 2,
+    "parking": "busy parking",
+    "vibes": "celebration",
+    "service": "kind",
+    "photo": "http://dummyimage.com/x.png/cc0000/ffffff"
 }, {
     "id": 18,
-    "restaurant_name": "Schmitt-Little",
-    "location": "30994 Crescent Oaks Terrace",
-    "rating": 1,
-    "parking": "no parking",
-    "vibes": "0",
-    "service": "slow"
-}, {
-    "id": 19,
-    "restaurant_name": "Lesch and Sons",
-    "location": "1 Toban Avenue",
+    "restaurant_name": "Marquardt Inc",
+    "location": "Minneapolis",
     "rating": 5,
     "parking": "free parking",
+    "vibes": "date night",
+    "service": "0",
+    "photo": "http://dummyimage.com/x.png/5fa2dd/ffffff"
+}, {
+    "id": 19,
+    "restaurant_name": "Goyette LLC",
+    "location": "New York City",
+    "rating": 3,
+    "parking": "busy parking",
     "vibes": "celebration",
-    "service": "0"
+    "service": "quick",
+    "photo": "http://dummyimage.com/x.png/cc0000/ffffff"
 }, {
     "id": 20,
-    "restaurant_name": "Heller-Herzog",
-    "location": "1 Lakewood Street",
-    "rating": 1,
-    "parking": "free parking",
-    "vibes": "fancy",
-    "service": "slow"
+    "restaurant_name": "Leannon LLC",
+    "location": "New York City",
+    "rating": 2,
+    "parking": "paid parking",
+    "vibes": "celebration",
+    "service": "kind",
+    "photo": "http://dummyimage.com/x.png/5fa2dd/ffffff"
 }]
 
-export default {data: restaurant_data}
+export default {data}
