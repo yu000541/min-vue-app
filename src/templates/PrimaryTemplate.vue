@@ -4,7 +4,10 @@
 
 <template>
   <section class="primary-template">
-    <header>MINNchelin Guide</header>
+    <header><span>MINNchelin</span> Guide</header>
+    <section class="top">
+      <img src=# alt="Guide 2" width="300" height="300">
+    </section>
     <section class="main">
       <slot></slot>
       <p>Welcome message~</p>
@@ -27,7 +30,7 @@
 <style scoped>
 
 section.primary-template {
-  section.main{
+  section.main {
     margin: 15%;
     //border: 1px solid red;
   }
