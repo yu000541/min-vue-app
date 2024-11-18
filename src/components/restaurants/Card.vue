@@ -9,6 +9,7 @@ defineProps({
 
 </script>
 
+
 <template>
   <section class="restaurant-card">
     <div class="main-photo">
@@ -16,7 +17,7 @@ defineProps({
     </div>
     <div class="details">
       <h1>{{ restaurantInfo.restaurant_name }}</h1>
-<!--      <p v-html="('City' {{restaurantInfo.location}})"></p>-->
+      <!--      <p v-html="('City' {{restaurantInfo.location}})"></p>-->
     </div>
   </section>
 </template>
@@ -44,7 +45,7 @@ section.restaurant-card {
 
   /* Tablet and up */
   @media screen and (width > 550px) {
-    width : 80%
+    width: 80%
   }
 }
 

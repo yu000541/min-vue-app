@@ -19,14 +19,14 @@
 html, body{
   font-size: 16px;
   margin: 0;
-  border-top: 5px solid #373C87;
+  font-family: PoppinsLight, sans-serif;
+  color: #373C87;
 }
 
 header{
   font-family: PoppinsLight, sans-serif;
   font-size: clamp(2rem, 2.5vw, 5rem);
   text-align: left;
-  color: /*white*/ #373C87;
   margin: 1px 1%;
 
 
@@ -37,7 +37,6 @@ header{
 h1, h2{
   font-family: PoppinsH, "Helvetica Neue b", sans-serif;
   margin: 1.5rem 0 0 0;
-  color: #373C87;
 }
 h3{
   font-family: PoppinsM, "Helvetica Neue b", sans-serif;
